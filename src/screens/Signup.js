@@ -27,7 +27,7 @@ const Signup = () => {
         Services and Privacy Policy.
       </p>
       <p className="p2">
-        Already have account?{" "}
+        Already have account?
         <button className="btn3">
           <b>Log in</b>
         </button>

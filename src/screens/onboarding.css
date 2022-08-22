@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+.para{
+    font-family: 'Roboto';
+    font-size: 28px;
+   color: #6025d6;
+}
+.container {
+    border: 1px solid rgb(255, 255, 255);
+    width: 500px;
+    margin-top: 50px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    height: 500px;
+  }
+  .heading{
+    font-size: 49px;
+   font-family: "Lobster";
+   background: linear-gradient(90deg, #6025D6 0%, #9325D6 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   /* text-fill-color: transparent; */
+    font-weight: 700;
+  }
+  .para1{
+    color: #8A8A8F;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  .btn {
+    background: linear-gradient(90deg, #6025d6 0%, #9325d6 100%);
+    border-radius: 23px;
+    border: none;
+    width: 410px;
+    height: 50px;
+    color: white;
+    margin-top: 20px;
+  }
