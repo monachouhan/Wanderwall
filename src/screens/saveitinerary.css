@@ -1,5 +1,39 @@
-.bi{
-    color: blueviolet;
-    padding-left: 40px;
-   
+.container {
+  border-radius: 40px;
+  height: max-content;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+.head {
+  font-size: 18px;
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  margin-top: 24px;
+  text-align: center;
+}
+.p {
+  font-size: 20px;
+  margin-top: 40px;
+  font-family: "Roboto";
+  color: gray;
+}
+.button {
+  border-radius: 1rem;
+  margin-top: 20px;
+  background: linear-gradient(90deg, #6025d6 0%, #9325d6 100%);
+  border: none;
+  color: white;
+  font-size: 70px;
+  height: 120px;
+  width: 120px;
+}
+.inputbox {
+  background: #ffffff;
+  box-shadow: 0px 9px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  border: none;
+  padding-left: 35px;
+  width: 410px;
+  height: 50px;
+  margin: 20px;
 }

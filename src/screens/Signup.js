@@ -6,13 +6,13 @@ const Signup = () => {
     <div className="container">
       <h1 className="h1">Sign up</h1>
 
-      <input type="text" placeholder="Full Name"></input>
+      <input type="text" placeholder="Full Name" className="inp"></input>
       <br></br>
-      <input type="text" placeholder="User Name"></input>
+      <input type="text" placeholder="User Name"  className="inp"></input>
       <br></br>
-      <input type="text" placeholder ="Your Email"></input>   
+      <input type="text" placeholder ="Your Email"  className="inp"></input>   
       <br></br>
-      <input type="text" placeholder="Password"></input>
+      <input type="text" placeholder="Password"  className="inp"></input>
       <br></br>
       <button className="btn">Sign up</button>
       <br></br>
