@@ -28,7 +28,7 @@ padding: 15px;
 width:410px;
 height: 50px;
 }
-.btn{
+.btn1{
     background: linear-gradient(90deg, #6025D6 0%, #9325D6 100%);
 border-radius: 23px;
 border: none;
@@ -39,7 +39,7 @@ margin-top: 20px;
 }
 .btn:hover{
     background:linear-gradient(90deg, #6025D6 0%, #9325D6 100%);
-    color: white;
+   
 }
 .hr-sect {
 	display: flex;

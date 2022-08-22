@@ -1,6 +1,6 @@
 import React from "react";
 import "./signup.css";
-import pic from "./images/google.png";
+import pic from '../images/google.png';
 const Signup = () => {
   return (
     <div className="container">
@@ -14,7 +14,7 @@ const Signup = () => {
       <br></br>
       <input type="text" placeholder="Password"  className="inp"></input>
       <br></br>
-      <button className="btn">Sign up</button>
+      <button className="btn1">Sign up</button>
       <br></br>
       <p class="hr-sect">OR</p>
       <br></br>

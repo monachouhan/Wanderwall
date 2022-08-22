@@ -1,8 +1,8 @@
 import React from "react";
 import "./saveitinerary.css";
-import pic1 from "./images/newyork.jpeg";
-import pic2 from "./images/northwest.jpeg";
-import pic3 from "./images/asia.jpeg";
+import pic1 from "../images/newyork.jpeg";
+import pic2 from "../images/northwest.jpeg";
+import pic3 from "../images/asia.jpeg";
 
 
 const SaveItinerary = () => {
@@ -55,7 +55,7 @@ const SaveItinerary = () => {
       </div>
       <div className="row">
         <div className="col-sm-4">
-          <button className="button">+</button>
+          <button className="btnplus">+</button>
         </div>
         <div className="col-sm-8">
           <p className="p">Create New Itinerary</p>

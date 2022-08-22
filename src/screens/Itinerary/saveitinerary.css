@@ -17,7 +17,7 @@
   font-family: "Roboto";
   color: gray;
 }
-.button {
+.btnplus {
   border-radius: 1rem;
   margin-top: 20px;
   background: linear-gradient(90deg, #6025d6 0%, #9325d6 100%);

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
-.para{
+.paraa{
     font-family: 'Roboto';
     font-size: 28px;
    color: #6025d6;
@@ -13,7 +13,7 @@
     margin-bottom: 20px;
     height: 500px;
   }
-  .heading{
+  .headings{
     font-size: 49px;
    font-family: "Lobster";
    background: linear-gradient(90deg, #6025D6 0%, #9325D6 100%);
@@ -23,12 +23,12 @@
    /* text-fill-color: transparent; */
     font-weight: 700;
   }
-  .para1{
+  .paragraph{
     color: #8A8A8F;
     font-size: 15px;
     margin-top: 20px;
   }
-  .btn {
+  .bt {
     background: linear-gradient(90deg, #6025d6 0%, #9325d6 100%);
     border-radius: 23px;
     border: none;

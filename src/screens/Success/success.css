@@ -1,0 +1,33 @@
+.h2 {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 20px;
+}
+.container {
+  height: max-content;
+  width: max-content;
+}
+.p1 {
+  color: #8a8a8f;
+  font-size: 15px;
+}
+.btnn1 {
+  border-color: blueviolet;
+  border-radius: 40px;
+  color: blueviolet;
+  height: 40px;
+  width: 120px;
+  text-align: center;
+}
+.btnn2 {
+  border: none;
+  border-radius: 40px;
+  color: white;
+  height: 38px;
+  width: 115px;
+  background: linear-gradient(90deg, #6025d6 0%, #9325d6 100%);
+  border-radius: 35px;
+  margin-left: 20px;
+}
