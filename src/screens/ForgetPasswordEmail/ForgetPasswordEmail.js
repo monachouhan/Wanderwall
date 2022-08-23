@@ -15,4 +15,4 @@ const ForgetPasswordEmail = () => {
   )
 }
 
-export default ForgetPasswordEmail
+export default ForgetPasswordEmail;
