@@ -7,7 +7,6 @@ import ForgetPassword from './screens/ForgetPassword/ForgetPassword';
 import ForgetPasswordEmail from './screens/ForgetPasswordEmail/ForgetPasswordEmail';
 import Login from './screens/Login/Login';
 import ResetPassword from './screens/ResetPassword/ResetPassword';
-import EditItinerary from './screens/EditItinerary/EditItinerary';
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
       {/* <SaveItinerary /> */}
       {/* <ForgetPassword/> */}
       {/* <ForgetPasswordEmail/> */}
-      <EditItinerary/>
     </div>
   );
 }
