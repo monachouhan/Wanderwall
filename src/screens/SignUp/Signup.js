@@ -1,6 +1,6 @@
 import React from "react";
 import "./signup.css";
-import pic from "./images/google.png";
+import pic from "../images/google.png";
 const Signup = () => {
   return (
     <div className="container">

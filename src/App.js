@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-// import './App.css'
+import './App.css'
 import Signup from './screens/SignUp/Signup';
 import Onboarding from './screens/Onboarding/Onboarding';
 import SaveItinerary from './screens/SaveItineraries/SaveItinerary';
@@ -7,6 +7,12 @@ import ForgetPassword from './screens/ForgetPassword/ForgetPassword';
 import ForgetPasswordEmail from './screens/ForgetPasswordEmail/ForgetPasswordEmail';
 import Login from './screens/Login/Login';
 import ResetPassword from './screens/ResetPassword/ResetPassword';
+import CreateItinerary from './screens/CreateItinerary/CreateItinerary';
+import DotComponent from './utils/dotComponent';
+import Line from './utils/Line';
+import Card from './utils/Card';
+import Travelicon from './utils/Travelicon';
+
 
 function App() {
   return (
@@ -18,6 +24,11 @@ function App() {
       {/* <SaveItinerary /> */}
       {/* <ForgetPassword/> */}
       {/* <ForgetPasswordEmail/> */}
+      <CreateItinerary/>
+      {/* <DotComponent/> */}
+      {/* <Line/> */}
+{/* <Card/> */}
+{/* <Travelicon/> */}
     </div>
   );
 }
