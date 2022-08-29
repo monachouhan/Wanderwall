@@ -11,7 +11,7 @@ import Card from '../../utils/Card';
 const CreateItinerary = () => {
 
   return (
-    <div className='container' style={{alignItem:'center'}}>
+    <div className='container' style={{ alignItem: 'center', background: '#f2f2f2' }}>
       <img src={pic} className='image' alt='background ' />
       <p className='line1'>Change Cover Photo<i className="bi bi-pencil" style={{ color: 'white' }}></i><img src={vector} className='vector' alt='vector' /></p>
       <p className='line2'>Mediterranean<br />Delight<i className="bi bi-pencil" style={{ color: 'black' }}></i></p>
@@ -32,17 +32,18 @@ const CreateItinerary = () => {
 
           return (
             <div key={index}>
-              <div className="container" style={{ flexDirection: 'row',margin:'0px', justifyContent:'space-between',backgroundColor:'red'}} >
+              <div className="container" style={{ flexDirection: 'row', margin: '0px', justifyContent: 'space-between', marginLeft: '50px' }} >
                 <div className="row">
-                  <div className="col" style={{ display:'flex',flexDirection:'column',backgroundColor:'yellow' }}>
+                  <div className="col" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                     {/* {index==0 && <p style={{ color: 'gray', padding: '2px', marginBottom: '10px' }}>Start</p>} */}
-                    <Line />
+                    {index == 0 ? <p style={{ color: 'gray', width: '20px' }}>Start</p> : <Line backgroundColor={'rgb(128 128 128)'} width={'2px'} height={'100%'} />}
                     {curElm.travelType && <DotComponent />}
                     <img className='iconImage' src={curElm.iconImage} />
-                    {curElm.travelType && <DotComponent />}
-                    <Line />
+                    {curElm.travelType && index !== itineraryItemsList.length - 1 && <DotComponent />}
+                    {/* <Line backgroundColor={'rgb(128 128 128)'} width={'2px'} height={'100%'} /> */}
+                    <Line backgroundColor={index === itineraryItemsList.length - 1 ? '#f2f2f2' : 'rgb(128 128 128)'} width={'2px'} height={'100%'} />
                   </div>
-                  <div class="col" style={{backgroundColor:'pink'}}>
+                  <div class="col">
                     <Card image={curElm.image} textA={curElm.name} textB={curElm.content} />
                   </div>
                 </div>

@@ -10,9 +10,8 @@ const DotComponent = () => {
         display: "flex",
         height: "4px",
         background:"gray",
-       borderRadius:"50px",
+       borderRadius:"50%",
         marginTop:'2px',
-        marginLeft:'9px',
         marginBottom:'2px',
       }} />
       <img src={dot} style={{
@@ -20,9 +19,8 @@ const DotComponent = () => {
        display: "flex",
        height: "4px",
        background:"gray",
-      borderRadius:"50px",
+      borderRadius:"50%",
        marginTop:'2px',
-       marginLeft:'9px',
        marginBottom:'2px',
       }} />
     </div>

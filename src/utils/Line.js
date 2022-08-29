@@ -1,12 +1,19 @@
-import React from 'react'
+import React from 'react';
 
-const Line = () => {
+// const Line = (props) => {
+//   const { backgroudColor } = props
+//   return (
+//     <div style={{
+//       width: '2px', background: { backgroudColor }, height: '100%', marginLeft: '10px'
+//     }}></div>
+//   )
+// }
+const Line = (props) => {
+  const { width, height, marginLeft, backgroundColor } = props
+  const style1 = { width: width, height: height, marginLeft: marginLeft, backgroundColor: backgroundColor }
   return (
-    <div style={{
-       width: '2px', background: 'gray', height: '100%',
-     marginLeft: '10px'
-    }}></div>
+    <div style={{ ...style1 }}></div>
   )
 }
 
-export default Line
+export default Line;
