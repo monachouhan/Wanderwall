@@ -1,0 +1,50 @@
+.head{
+width: 272px;
+height: 43px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+color: #252529;
+padding-top: 30px;
+float: left;
+}
+.oval1{
+  height: 140px;
+  width: 140px;
+  margin-top:80px;
+  margin-right:200px;
+  margin-left:200px;
+  background-color: rgb(141, 138, 138);
+  border-radius: 70px;
+align-items: center;
+justify-content: center;
+box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.04),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.08),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+.oval2{
+  height: 40px;
+  width: 40px;
+  background-color: rgb(155, 26, 224);
+  border-radius: 20px;
+align-items: center;
+justify-content: center;
+margin-left: 300px;
+margin-top: -40px;
+}
+/* .inp{
+  border: none;
+  border-bottom: 2px solid gray;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+}
+ */

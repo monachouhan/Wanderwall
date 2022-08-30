@@ -51,7 +51,8 @@ font-style: normal;
 font-weight: 700;
 font-size: 37px;
 text-align: right;
-margin-right: -20px;
+margin-right: 70px;
+float: right;
 margin-top: -70px;
 }
 
@@ -164,3 +165,14 @@ border-radius: 23px;
 }
 
 
+.slider1{
+  background-color: #e08383;
+  border-radius: 50%; 
+  margin: 2px;
+}
+
+.slider2{
+  background-color: #7ad78b;
+  margin: 2px;
+  border-radius: 50%; 
+}

@@ -12,6 +12,9 @@ import DotComponent from './utils/dotComponent';
 import Line from './utils/Line';
 import Card from './utils/Card';
 import Travelicon from './utils/Travelicon';
+import Profile from './screens/Profile/Profile';
+import InputField from './utils/InputField';
+import ItineraryList from './utils/ItineraryList';
 
 
 function App() {
@@ -24,11 +27,14 @@ function App() {
       {/* <SaveItinerary /> */}
       {/* <ForgetPassword/> */}
       {/* <ForgetPasswordEmail/> */}
-      <CreateItinerary/>
+      {/* <CreateItinerary/> */}
       {/* <DotComponent/> */}
       {/* <Line/> */}
-{/* <Card/> */}
-{/* <Travelicon/> */}
+      {/* <Card/> */}
+      {/* <Travelicon/> */}
+      <Profile/>
+      {/* <InputField/> */}
+      {/* <ItineraryList/> */}
     </div>
   );
 }

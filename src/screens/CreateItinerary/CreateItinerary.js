@@ -6,7 +6,6 @@ import { itineraryItemsList } from '../../utils/mocList';
 import DotComponent from '../../utils/dotComponent';
 import Line from '../../utils/Line';
 import Card from '../../utils/Card';
-// import Travelicon from '../../utils/Travelicon';
 
 const CreateItinerary = () => {
 
