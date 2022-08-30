@@ -29,9 +29,9 @@ const ItineraryList = (props) => {
         <p style={{ textAlign: 'left', float: 'left', display: 'flex', width: '400px', color: 'gray' }}>{l4}</p>
       </div>
       <div>
-        <button style={{fontSize: '20px', fontFamily: 'Roboto', fontStyle: 'normal', fontWeight: '500',color:'purple',float:'right',backgroundColor:'white',border:'none',outline:"none"}}>Edit</button>
+        <button style={{ fontSize: '20px', fontFamily: 'Roboto', fontStyle: 'normal', fontWeight: '500', color: 'purple', float: 'right', backgroundColor: 'white', border: 'none', outline: "none" }}>Edit</button>
       </div>
-      
+
     </div>
   )
 }
